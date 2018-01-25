@@ -1,5 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
+root: .
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "University of California, Riverside"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Room 140, Tom&aacute;s Rivera Library, 900 University Ave., Riverside, CA 92521"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
