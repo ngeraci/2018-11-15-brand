@@ -548,7 +548,12 @@ eventbrite: "42948393802" # optional: alphanumeric key for Eventbrite registrati
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
-        <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
+        <li>Install Python 3 using the defaults for installation, <em>except</em>:
+        	<ul style="list-style-type:disc">
+	        	<li>Make sure to check <strong>Add Anaconda to my PATH environment variable</strong>, even though the installer will warn you not to.</li>
+    	     	<li>Make sure to check <strong>Make Anaconda the default Python</strong>.</li>
+    	    </ul>
+         </li>
       </ol>
     </div>
     <div class="col-md-4">
