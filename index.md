@@ -115,18 +115,9 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  {% if page.carpentry == "swc" %}
-  Software Carpentry's
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry's
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry's
-  {% endif %}
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <strong>Requirements:</strong> Participants must bring a laptop with a Windows, Mac, or Linux operating system (not a tablet, Chromebook, etc.) that they have the ability to install software on.
+ They should come prepared with a few specific software packages installed (listed
+  <a href="#setup">below</a>).
 </p>
 
 {% comment %}
@@ -382,65 +373,8 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
-<div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
-           is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
-  <h3>Git</h3>
-  <p>
-    Git is a version control system that lets you track who made changes
-    to what when and has options for easily updating a shared or public
-    version of your code
-    on <a href="https://github.com/">github.com</a>. You will need a
-    <a href="https://help.github.com/articles/supported-browsers/">supported</a>
-    web browser (current versions of Chrome, Firefox or Safari,
-    or Internet Explorer version 9 or above).
-  </p>
-  <p>
-    You will need an account at <a href="https://github.com/">github.com</a>
-    for parts of the Git lesson. Basic GitHub accounts are free. We encourage
-    you to create a GitHub account if you don't have one already.
-    Please consider what personal information you'd like to reveal. For
-    example, you may want to review these
-    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
-    for keeping your email address private</a> provided at GitHub.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="git-windows">Windows</h4>
-      <p>
-        Git should be installed on your computer as part of your Bash
-        install (described above).
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="git-macosx">macOS</h4>
-      <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
-      <p>
-        <strong>For OS X 10.9 and higher</strong>, install Git for Mac
-        by downloading and running the most recent "mavericks" installer from
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
-        After installing Git, there will not be anything in your <code>/Applications</code> folder,
-        as Git is a command line program.
-        <strong>For older versions of OS X (10.5-10.8)</strong> use the
-        most recent available installer labelled "snow-leopard"
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="git-linux">Linux</h4>
-      <p>
-        If Git is not already available on your machine you can try to
-        install it via your distro's package manager. For Debian/Ubuntu run
-        <code>sudo apt-get install git</code> and for Fedora run
-        <code>sudo dnf install git</code>.
-      </p>
-    </div>
-  </div>
-</div> {% comment %} End of 'Git' section. {% endcomment %}
-
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
-
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
@@ -456,7 +390,7 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
       <h4 id="editor-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
-        nano is a basic editor and the default that instructors use in the workshop.
+        nano is a basic editor and the default the instructor will use in the workshop.
         To install it,
         download the <a href="{{site.swc_installer}}">
           {% if page.carpentry == "swc" %}
@@ -549,10 +483,10 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using the defaults for installation, <em>except</em>:
-        	<ul style="list-style-type:disc">
-	        	<li>Make sure to check <strong>Add Anaconda to my PATH environment variable</strong>, even though the installer will warn you not to.</li>
-    	     	<li>Make sure to check <strong>Make Anaconda the default Python</strong>.</li>
-    	    </ul>
+          <ul style="list-style-type:disc">
+            <li>Make sure to check <strong>Add Anaconda to my PATH environment variable</strong>, even though the installer will warn you not to.</li>
+            <li>Make sure to check <strong>Make Anaconda the default Python</strong>.</li>
+          </ul>
          </li>
       </ol>
     </div>
