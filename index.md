@@ -62,6 +62,16 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
   Modify the block below if there are any barriers to accessibility or
   special instructions.
 {% endcomment %}
+<p id="accessibility">
+  <strong>Accessibility:</strong> We are committed to making this workshop
+  accessible to everybody. For specific accessibility information about the venue, see the <a href="https://www.glendaleca.gov/government/departments/library-arts-culture/brand-library-art-center/about-brand-library">Brand Library website</a>.
+<p>
+  Printed materials will be provided at the workshop and
+  large-print handouts are available if needed by notifying the
+  organizers in advance.  If there's anything else we do to help make learning easier for
+  you, please get in touch (using contact details below) and we will
+  attempt to provide them.
+</p>
 
 {% comment %}
   CONTACT EMAIL ADDRESS
@@ -332,10 +342,8 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
   <h3>Python</h3>
 
   <p>
-    <a href="http://python.org">Python</a> is a popular language for
-    research computing, and great for general-purpose programming as
-    well.  Installing all of its research packages individually can be
-    a bit difficult, so we recommend
+    <a href="http://python.org">Python</a> is a popular language in the library and archives fields, and great for general-purpose programming as
+    well. Installing all of its packages individually can be a bit difficult, so we recommend
     <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
     an all-in-one installer.
   </p>
