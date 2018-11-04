@@ -265,22 +265,8 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 <h2 id="setup">Setup</h2>
 
 <p>
-  To participate in a
-  {% if page.carpentry == "swc" %}
-  Software Carpentry
-  {% elsif page.carpentry == "dc" %}
-  Data Carpentry
-  {% elsif page.carpentry == "lc" %}
-  Library Carpentry
-  {% endif %}
-  workshop,
-  you will need access to the software described below.
+  To participate in the workshop, you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
-</p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
@@ -417,7 +403,7 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
     <div class="col-md-4">
       <h4 id="editor-macosx">macOS</h4>
       <p>
-        nano is a basic editor and the default that instructors use in the workshop.
+        nano is a basic editor and the default the instructor will use in the workshop.
         See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
         for an example on how to open nano.
         It should be pre-installed.
@@ -431,7 +417,7 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
     <div class="col-md-4">
       <h4 id="editor-linux">Linux</h4>
       <p>
-        nano is a basic editor and the default that instructors use in the workshop.
+        nano is a basic editor and the default the instructor will use in the workshop.
         It should be pre-installed.
       </p>
       <p>
@@ -463,16 +449,6 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
       Regardless of how you choose to install it,
       <strong>please make sure you install Python version 3.x</strong>
       (e.g., 3.6 is fine).
-    </p>
-
-    <p>
-      We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
-      a programming environment that runs in a web browser. For this to work you will need a reasonably
-      up-to-date browser. The current versions of the Chrome, Safari and
-      Firefox browsers are all
-      <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">supported</a>
-      (some older browsers, including Internet Explorer version 9
-      and below, are not).
     </p>
 
   <div class="row">
