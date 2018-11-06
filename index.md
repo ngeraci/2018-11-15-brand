@@ -391,7 +391,7 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
     <h2>Attribution</h2>
     <p>
         This workshop contains material adapted and modified
-        from work that is &copy; <a href="http://software-carpentry.org">Software Carpentry</a>
+        from work that is &copy; 2016-2018 <a href="http://software-carpentry.org">Software Carpentry</a>
         and made available under a <a href="https://creativecommons.org/licenses/by/4.0/">
         Creative Commons Attribution</a> license.
     </p>
