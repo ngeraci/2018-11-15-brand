@@ -58,8 +58,8 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 <p id="contact">
   <strong>Contact</strong>:
   For registration questions or general workshop logistics, contact
-  <a href="mallory.furnier@csun.edu"></a>. For questions about workshop content,
-  contact <a href="noah.geraci@ucr.edu"></a>.
+  <a href="mallory.furnier@csun.edu"/>. For questions about workshop content,
+  contact <a href="noah.geraci@ucr.edu"/>.
 </p>
 
 <hr/>
