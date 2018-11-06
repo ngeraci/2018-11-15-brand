@@ -307,7 +307,7 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 
   <p>
     <a href="http://python.org">Python</a> is a popular language in the library and archives fields, and great for general-purpose programming as
-    well. Installing all of its packages individually can be a bit difficult, so we recommend
+    well. Installing all of its packages individually can be a bit of a pain, so we recommend using
     <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
     an all-in-one installer.
   </p>
