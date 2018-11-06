@@ -385,6 +385,8 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
+<hr/>
+
 <div>
     <h2>Attribution</h2>
     <p>
