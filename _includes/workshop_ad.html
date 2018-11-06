@@ -4,38 +4,26 @@
 <div class="jumbotron">
   <div class="row">
     <div class="col-md-6 col-md-offset-1">
-        <p>
-            <img src="assets/img/sca.png"
-            alt="Society of California Archivists"/>
-        </p>
-    </div>
-    </div>
-      <div class="row">
-        <div class="col-md-6">
-          <h2>{{page.title}}</h2>
-          <p>
-          <strong>Instructor:</strong>
-          {% if page.instructor %}
-          {{page.instructor | join: ', ' %}}
-          {% else %}
-          to be announced.
-          {% endif %}
-          </p>
-
-<!--           {% if page.helper %}
-          <p>
-          <strong>Helpers:</strong>
-          {{page.helper | join: ', ' %}}
-          </p>
-          {% endif %}
- -->        </div>
-         <div class="col-md-6">
-          <p>{{page.venue}}</p>
-          <p>{{page.humandate}}</p>
-          <p>{% if page.humantime %}{{page.humantime}}{% endif %}</p>
-        </div>
-      </div>
+      <img src="assets/img/sca.png"
+      alt="Society of California Archivists"/>
     </div>
   </div>
-<!-- </div>
- -->
+  <div class="row">
+    <div class="col-md-6">
+      <h2>{{page.title}}</h2>
+        <p>
+        <strong>Instructor:</strong>
+        {% if page.instructor %}
+        {{page.instructor | join: ', ' %}}
+        {% else %}
+        to be announced.
+        {% endif %}
+        </p>
+     </div>
+     <div class="col-md-6">
+      <p>{{page.venue}}</p>
+      <p>{{page.humandate}}</p>
+      <p>{% if page.humantime %}{{page.humantime}}{% endif %}</p>
+    </div>
+  </div>
+</div>
