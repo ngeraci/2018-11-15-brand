@@ -59,8 +59,8 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 <p id="contact">
   <strong>Contact</strong>:
   For registration questions or general workshop logistics, contact
-  <a href="mallory.furnier@csun.edu">mallory.furnier@csun.edu</a>. For questions about workshop content,
-  contact <a href="noah.geraci@ucr.edu">noah.geraci@ucr.edu</a>.
+  <a href="mailto:mallory.furnier@csun.edu">mallory.furnier@csun.edu</a>. For questions about workshop content,
+  contact <a href="mailto:noah.geraci@ucr.edu">noah.geraci@ucr.edu</a>.
 </p>
 
 <hr/>
@@ -384,3 +384,11 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
+
+<h2>Attribution</h2>
+    <p>
+        This workshop contains material adapted and modified
+        from work that is &copy; <a href="http://software-carpentry.org">Software Carpentry</a>
+        and made available under a <a href="https://creativecommons.org/licenses/by/4.0/">
+        Creative Commons Attribution</a> license.
+    </p>
