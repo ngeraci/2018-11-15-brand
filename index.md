@@ -138,7 +138,7 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
-  <h3>The Bash Shell</h3>
+  <h3>Bash Shell</h3>
 
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
