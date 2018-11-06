@@ -88,8 +88,7 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 {% endif %} -->
 {% include lc/schedule.html %}
 
-<hr/>
-
+<!-- <hr/>-->
 <!-- {% comment %}
   SYLLABUS
 
