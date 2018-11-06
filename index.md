@@ -385,10 +385,12 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
-<h2>Attribution</h2>
+<div style="border: 2px solid black;border-radius: 5px;">
+    <h2>Attribution</h2>
     <p>
         This workshop contains material adapted and modified
         from work that is &copy; <a href="http://software-carpentry.org">Software Carpentry</a>
         and made available under a <a href="https://creativecommons.org/licenses/by/4.0/">
         Creative Commons Attribution</a> license.
     </p>
+</div>
