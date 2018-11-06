@@ -29,24 +29,6 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
   And run 'bin/workshop_check.py' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-{% comment %}
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="248px"
-  scrolling="auto">
-</iframe>
-{% endif %}
-
 <h2 id="general">General Information</h2>
 {% include lc/intro.html %}
 {% include lc/who.html %}
@@ -68,34 +50,16 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 <p>
   Printed materials will be provided at the workshop and
   large-print handouts are available if needed by notifying the
-  organizers in advance.  If there's anything else we do to help make learning easier for
-  you, please get in touch (using contact details below) and we will
-  attempt to provide them.
+  organizers in advance.  If there's anything else we can do to
+  make it possible for you to participate, please get in touch (using contact details below)
+  and we will attempt to provide it.
 </p>
 
-{% comment %}
-  CONTACT EMAIL ADDRESS
-
-  Display the contact email address set in the configuration file.
-{% endcomment %}
 <p id="contact">
   <strong>Contact</strong>:
-  Please email
-  {% if page.email %}
-    {% for email in page.email %}
-      {% if forloop.last and page.email.size > 1 %}
-        or
-      {% else %}
-        {% unless forloop.first %}
-        ,
-        {% endunless %}
-      {% endif %}
-      <a href='mailto:{{email}}'>{{email}}</a>
-    {% endfor %}
-  {% else %}
-    to-be-announced
-  {% endif %}
-  for more information.
+  For registration questions or general workshop logistics, contact
+  <a href="mallory.furnier@csun.edu"></a>. For questions about workshop content,
+  contact <a href="noah.geraci@ucr.edu"></a>.
 </p>
 
 <hr/>
@@ -109,9 +73,9 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
+<!-- {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
 <p><em>Surveys</em></p>
-{% if page.carpentry == "swc" %} 
+{% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -121,12 +85,12 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 <p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "lc" %}
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %}
+{% endif %} -->
 {% include lc/schedule.html %}
 
 <hr/>
 
-{% comment %}
+<!-- {% comment %}
   SYLLABUS
 
   Show what topics will be covered.
@@ -151,7 +115,7 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
   {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
-{% endif %}
+{% endif %} -->
 
 <hr/>
 
