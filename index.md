@@ -65,17 +65,8 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 
 <hr/>
 
-{% comment %}
-  SCHEDULE
-
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
-{% endcomment %}
-<h2 id="schedule">Schedule</h2>
-
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
-<p><em>Surveys</em></p>
+<h2>Surveys</h2>
 {% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
@@ -87,6 +78,17 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
 {% elsif page.carpentry == "lc" %}
 <p>The <a href="{{ site.sca_pre_survey }}">pre-workshop survey</a> is a quick, optional survey to help the instructor learn more about participants' interests and backgrounds, and better tailor the workshop to your needs</p>
 {% endif %}
+
+<hr/>
+
+{% comment %}
+  SCHEDULE
+
+  Show the workshop's schedule.  Edit the items and times in the table
+  to match your plans.  You may also want to change 'Day 1' and 'Day
+  2' to be actual dates or days of the week.
+{% endcomment %}
+<h2 id="schedule">Schedule</h2>
 {% include lc/schedule.html %}
 
 <!-- <hr/>-->
