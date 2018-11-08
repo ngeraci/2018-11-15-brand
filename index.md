@@ -63,22 +63,21 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
   contact <a href="mailto:noah.geraci@ucr.edu">noah.geraci@ucr.edu</a>.
 </p>
 
-<hr/>
-
-{% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
-<h2>Surveys</h2>
-{% if page.carpentry == "swc" %}
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "dc" %}
-  <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>The <a href="{{ site.sca_pre_survey }}">pre-workshop survey</a> is a quick, optional survey to help the instructor learn more about participants' interests and backgrounds, and better tailor the workshop to your needs</p>
-{% endif %}
-
+<p id="survey">
+	<strong>Survey</strong>:
+	{% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
+	{% if page.carpentry == "swc" %}
+	<p>Please be sure to complete these surveys before and after the workshop.</p>
+	<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+	<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+	{% elsif page.carpentry == "dc" %}
+  	<p>Please be sure to complete these surveys before and after the workshop.</p>
+	<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+	<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+	{% elsif page.carpentry == "lc" %}
+	The <a href="{{ site.sca_pre_survey }}">pre-workshop survey</a> is a quick, optional survey to help the instructor learn more 	about participants' interests and backgrounds, and better tailor the workshop to your needs
+	{% endif %}
+</p>
 <hr/>
 
 {% comment %}
