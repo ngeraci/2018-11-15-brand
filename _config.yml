@@ -38,6 +38,7 @@ training_site: "https://swcarpentry.github.io/instructor-training"
 swc_installer: "https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe"
 
 # Surveys.
+sca_pre_survey: "https://docs.google.com/forms/d/e/1FAIpQLScidrjktXHlZl38wPEicuAfeoNGohLVQs3LNIai9F_5a9mToA/viewform"
 swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
 swc_post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
 dc_pre_survey: "https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_id="
