@@ -263,8 +263,9 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
       </p>
       <p>
         Others editors that you can use are
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        <a href="http://notepad-plus-plus.org/">Notepad++</a>,
+        <a href="http://www.sublimetext.com/">Sublime Text</a>, or
+	<a href="https://atom.io/">Atom</a>.
         <strong>Be aware that you must
           add its installation directory to your system path.</strong>
         Please ask your instructor to help you do this.
@@ -279,9 +280,10 @@ eventbrite: # optional: alphanumeric key for Eventbrite registration, e.g., "123
         It should be pre-installed.
       </p>
       <p>
-        Others editors that you can use are
-        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        Other editors that you can use are
+	 	<a href="http://www.sublimetext.com/">Sublime Text</a>,
+		<a href="https://atom.io/">Atom</a>, or
+        <a href="http://www.barebones.com/products/bbedit/">BBEdit (formerly Text Wrangler)</a>.
       </p>
     </div>
     <div class="col-md-4">
